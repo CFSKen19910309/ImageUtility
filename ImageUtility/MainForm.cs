@@ -19,7 +19,14 @@ namespace ImageUtility
 
         private void panAndZoomPictureBox1_Click(object sender, EventArgs e)
         {
-            panAndZoomPictureBox1
+            
+        }
+
+        private void MenuStrip_OpenImgFile_Click(object sender, EventArgs e)
+        {
+            ImageGeneral t_ImageGeneral = new ImageGeneral();
+            object t_object = t_ImageGeneral.LoadImageFile(@"C:\Users\FD_Kenzo_NB\Desktop\Iphone Photo\576825840.265911.jpg");
+            Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte> t_Image = t_object as Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte>;
         }
     }
 }

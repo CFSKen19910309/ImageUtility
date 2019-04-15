@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImageGeneral.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
