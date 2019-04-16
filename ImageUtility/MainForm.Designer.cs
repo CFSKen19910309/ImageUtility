@@ -49,7 +49,8 @@
             this.basicToolStripMenuItem});
             this.MenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip.Name = "MenuStrip";
-            this.MenuStrip.Size = new System.Drawing.Size(881, 28);
+            this.MenuStrip.Padding = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.MenuStrip.Size = new System.Drawing.Size(661, 24);
             this.MenuStrip.TabIndex = 0;
             this.MenuStrip.Text = "Menu";
             // 
@@ -60,7 +61,7 @@
             this.MenuStrip_SaveImgFile,
             this.MenuStrip_SaveAsImgFile});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(45, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // MenuStrip_OpenImgFile
@@ -68,7 +69,7 @@
             this.MenuStrip_OpenImgFile.Name = "MenuStrip_OpenImgFile";
             this.MenuStrip_OpenImgFile.ShortcutKeyDisplayString = "(Ctrl+O)";
             this.MenuStrip_OpenImgFile.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.MenuStrip_OpenImgFile.Size = new System.Drawing.Size(243, 26);
+            this.MenuStrip_OpenImgFile.Size = new System.Drawing.Size(203, 22);
             this.MenuStrip_OpenImgFile.Text = "Open";
             this.MenuStrip_OpenImgFile.ToolTipText = "Open a image file";
             this.MenuStrip_OpenImgFile.Click += new System.EventHandler(this.MenuStrip_OpenImgFile_Click);
@@ -78,9 +79,10 @@
             this.MenuStrip_SaveImgFile.Name = "MenuStrip_SaveImgFile";
             this.MenuStrip_SaveImgFile.ShortcutKeyDisplayString = "(Ctrl+S)";
             this.MenuStrip_SaveImgFile.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.MenuStrip_SaveImgFile.Size = new System.Drawing.Size(243, 26);
+            this.MenuStrip_SaveImgFile.Size = new System.Drawing.Size(203, 22);
             this.MenuStrip_SaveImgFile.Text = "Save";
             this.MenuStrip_SaveImgFile.ToolTipText = "Save a image file";
+            this.MenuStrip_SaveImgFile.Click += new System.EventHandler(this.MenuStrip_SaveImgFile_Click);
             // 
             // MenuStrip_SaveAsImgFile
             // 
@@ -88,7 +90,7 @@
             this.MenuStrip_SaveAsImgFile.ShortcutKeyDisplayString = "(Ctrl+Shift+S)";
             this.MenuStrip_SaveAsImgFile.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
-            this.MenuStrip_SaveAsImgFile.Size = new System.Drawing.Size(243, 26);
+            this.MenuStrip_SaveAsImgFile.Size = new System.Drawing.Size(203, 22);
             this.MenuStrip_SaveAsImgFile.Text = "Save as";
             this.MenuStrip_SaveAsImgFile.ToolTipText = "Save a image file";
             // 
@@ -99,36 +101,36 @@
             this.checkImageFileValidToolStripMenuItem,
             this.extractVideoFileToImageToolStripMenuItem});
             this.basicToolStripMenuItem.Name = "basicToolStripMenuItem";
-            this.basicToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
+            this.basicToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.basicToolStripMenuItem.Text = "Basic";
             // 
             // MenuStrip_ShowImgMode
             // 
             this.MenuStrip_ShowImgMode.CheckOnClick = true;
             this.MenuStrip_ShowImgMode.Name = "MenuStrip_ShowImgMode";
-            this.MenuStrip_ShowImgMode.Size = new System.Drawing.Size(269, 26);
+            this.MenuStrip_ShowImgMode.Size = new System.Drawing.Size(227, 22);
             this.MenuStrip_ShowImgMode.Text = "Show Image Mode";
             // 
             // checkImageFileValidToolStripMenuItem
             // 
             this.checkImageFileValidToolStripMenuItem.Name = "checkImageFileValidToolStripMenuItem";
-            this.checkImageFileValidToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
+            this.checkImageFileValidToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.checkImageFileValidToolStripMenuItem.Text = "Check Image File is Valid";
             // 
             // extractVideoFileToImageToolStripMenuItem
             // 
             this.extractVideoFileToImageToolStripMenuItem.Name = "extractVideoFileToImageToolStripMenuItem";
-            this.extractVideoFileToImageToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
+            this.extractVideoFileToImageToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
             this.extractVideoFileToImageToolStripMenuItem.Text = "Extract Video File to Image";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 336);
+            this.ClientSize = new System.Drawing.Size(661, 269);
             this.Controls.Add(this.MenuStrip);
             this.MainMenuStrip = this.MenuStrip;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.MenuStrip.ResumeLayout(false);
