@@ -63,5 +63,14 @@ namespace ImageUtility
                 //t_Image.Save("儲存名稱");
             }
         }
+
+        private void MenuStrip_ShowImgMode_Click(object sender, EventArgs e)
+        {
+            ImageUtility.UI.UIShowImage t_UIShowImage = new UI.UIShowImage();
+            //t_UIShowImage.TopLevel = false;
+            //t_UIShowImage.Dock = DockStyle.Fill;
+            //this.Controls.Add(t_UIShowImage);
+            t_UIShowImage.Show();
+        }
     }
 }

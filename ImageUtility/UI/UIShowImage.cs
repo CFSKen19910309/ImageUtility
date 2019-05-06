@@ -16,5 +16,16 @@ namespace ImageUtility.UI
         {
             InitializeComponent();
         }
+
+        private void ToolStripBtn_OepnImg_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog t_OpenFileDialog = new OpenFileDialog();
+            if(t_OpenFileDialog.ShowDialog() == DialogResult.Cancel)
+            {
+                return;
+            }
+            Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte> t_Image = new Emgu.CV.Image<Emgu.CV.Structure.Bgr, byte>(t_OpenFileDialog.FileName);
+            ZoomPanBox.LoadImage(t_Image.Bitmap);
+        }
     }
 }

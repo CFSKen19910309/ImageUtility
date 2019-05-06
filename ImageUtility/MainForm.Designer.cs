@@ -37,7 +37,6 @@
             this.MenuStrip_ShowImgMode = new System.Windows.Forms.ToolStripMenuItem();
             this.checkImageFileValidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.extractVideoFileToImageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zoomPanBox1 = new ZoomPanBox.ZoomPanBox();
             this.MenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +49,7 @@
             this.basicToolStripMenuItem});
             this.MenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip.Name = "MenuStrip";
-            this.MenuStrip.Size = new System.Drawing.Size(881, 27);
+            this.MenuStrip.Size = new System.Drawing.Size(713, 27);
             this.MenuStrip.TabIndex = 0;
             this.MenuStrip.Text = "Menu";
             // 
@@ -106,10 +105,10 @@
             // 
             // MenuStrip_ShowImgMode
             // 
-            this.MenuStrip_ShowImgMode.CheckOnClick = true;
             this.MenuStrip_ShowImgMode.Name = "MenuStrip_ShowImgMode";
             this.MenuStrip_ShowImgMode.Size = new System.Drawing.Size(269, 26);
             this.MenuStrip_ShowImgMode.Text = "Show Image Mode";
+            this.MenuStrip_ShowImgMode.Click += new System.EventHandler(this.MenuStrip_ShowImgMode_Click);
             // 
             // checkImageFileValidToolStripMenuItem
             // 
@@ -123,21 +122,11 @@
             this.extractVideoFileToImageToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
             this.extractVideoFileToImageToolStripMenuItem.Text = "Extract Video File to Image";
             // 
-            // zoomPanBox1
-            // 
-            this.zoomPanBox1.AutoSize = true;
-            this.zoomPanBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.zoomPanBox1.Location = new System.Drawing.Point(0, 27);
-            this.zoomPanBox1.Name = "zoomPanBox1";
-            this.zoomPanBox1.Size = new System.Drawing.Size(881, 309);
-            this.zoomPanBox1.TabIndex = 1;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 336);
-            this.Controls.Add(this.zoomPanBox1);
+            this.ClientSize = new System.Drawing.Size(713, 415);
             this.Controls.Add(this.MenuStrip);
             this.MainMenuStrip = this.MenuStrip;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -161,7 +150,6 @@
         private System.Windows.Forms.ToolStripMenuItem MenuStrip_ShowImgMode;
         private System.Windows.Forms.ToolStripMenuItem checkImageFileValidToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem extractVideoFileToImageToolStripMenuItem;
-        private ZoomPanBox.ZoomPanBox zoomPanBox1;
     }
 }
 
