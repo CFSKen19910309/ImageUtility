@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageUtility", "ImageUtility\ImageUtility.csproj", "{EFADA069-029D-46C6-9934-32D80954FE74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomPanBox", "ZoomPanBox\ZoomPanBox.csproj", "{73EB1921-7F6D-44D0-A4BD-E7C14D6C090F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EFADA069-029D-46C6-9934-32D80954FE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFADA069-029D-46C6-9934-32D80954FE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFADA069-029D-46C6-9934-32D80954FE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EB1921-7F6D-44D0-A4BD-E7C14D6C090F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EB1921-7F6D-44D0-A4BD-E7C14D6C090F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EB1921-7F6D-44D0-A4BD-E7C14D6C090F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EB1921-7F6D-44D0-A4BD-E7C14D6C090F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
